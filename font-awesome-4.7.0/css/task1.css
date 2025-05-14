@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('.beautiful-view-modern-bedroom-white-colors.jpg') no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    width: 80%;
+    height: auto;
+    padding: 1.5rem;
+    margin: 5% 5% 5% 9%;
+    background-color:rgb(243, 243, 243);
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.5);
+    margin-top: -1rem
+}
+.container h2{
+    margin: 2%  5%;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    
+}
+p{
+    font-size: 1.2rem;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.container2-text{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2% 1.5%;
+    justify-content: space-between;
+}
+
+img{
+    width: 100%;
+    /* border-radius: 5%; */
+    margin-top: 1.5rem;
+}
+/* 
+header{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+     padding: 1rem;
+     margin-bottom: 3rem ;
+     background-color: #646161;
+    margin-bottom: 2rem;
+}
+
+ul{
+    display: flex;
+} */
+/* ul a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin-right: 3rem;
+
+} */
+img{
+    height: 160px;
+}
+
+/* @media(max-width:480px){
+    .container h1, .container p, .container input,.button{
+        font-size:1.1rem;
+        margin: 25px;
+    }
+}
+@media(max-width:320px){
+    .container h1, .container p,.container input, .button{
+        font-size: 0.5rem;
+        margin: 20px;
+    }
+}
+@media(max-width:720px){
+    .container h1{
+        font-size: 1.0rem;
+        margin: 15px;
+    }
+}
+@media(max-width:320px){
+    .container input{
+        font-size: 0.5rem;
+        padding: 5px;
+    }
+}
+@media(max-width:667px){
+    .container h1, .container p,.container input, .button{
+        font-size: 0.9rem;
+        margin: 10px;
+    }
+}
+     */

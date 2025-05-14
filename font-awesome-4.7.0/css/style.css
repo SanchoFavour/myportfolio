@@ -1,0 +1,249 @@
+/* header style start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    /* background-image: url(beautiful-view-modern-bedroom-white-colors.jpg); */
+    /* background-size: cover; */
+    background-position: center;
+    background-attachment: fixed; 
+    opacity: 0.9;
+    scroll-behavior: smooth;
+    
+}
+header{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: blue; */
+}
+ .head{
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 3rem ;
+     background-color: #050506;
+} 
+ul{
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: -4rem;
+    margin-left: 3rem;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: montserrat;
+    color: white;
+}
+/* header style ends */
+/* nav{
+    background-color: darkblue;
+} */
+/*
+
+.collection{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    width: 95%;
+   
+   
+   
+}
+button{
+    justify-content: center;
+    padding: 5px;
+    background-color:  black;
+    border-radius: 5px;
+    margin: 2rem;
+    cursor: pointer;
+    color: white;
+}
+.desciption{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    background-color: antiquewhite;
+    height: 20rem;
+    width: 50%;
+    margin: 0 auto;
+    background-image: url(wingback-couch-with-part-set-foot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home{
+    background-color: rgba(225, 225, 225, 0.5);
+    background: transparent;
+    width: auto;
+    height: auto;
+    align-items: center;
+    place-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+   
+
+}
+
+.container{
+    margin-top: 3rem;
+}
+.footer{
+    background-color: #646161;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+        text-align: center;
+
+}
+div ul {
+    display: block;
+}
+
+#icon{
+    width: auto;
+    height: auto;
+    margin: 0 0.5rem;
+   
+}
+.footer-links a{
+    color: black;
+    font-size: medium;
+
+}
+.footer-links ul {
+    list-style: none;
+}
+.categories{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+figcaption{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    width: 30%;
+    margin: 1rem 0;
+
+}
+figure img{
+    box-shadow: 0 0 10px grey;
+    width:  95%;
+}
+#image1{
+    width: 60%;
+    box-shadow: 0 0 10px grey;
+}
+
+.hub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    border-inline: 1.5px solid black;
+    
+}
+.main{
+    background-color: rgba(225, 225, 225, 0.5);
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 2rem 0;
+}
+.hub #div{
+    
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+}
+
+@media screen and ( max-width: 850px){
+    .collection{
+        display: block;
+        justify-content: center;
+    }
+    .categories{
+        display: block;
+        justify-content: center;
+    }
+    .footer-links{
+    display: block;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    }
+    img{
+        width: 300px;
+        height: 450px;
+        width: 80%;
+    }
+     .head{
+        display: block;
+        text-align: center;
+        justify-content: center;
+       
+     }
+     ul a{
+        margin-right: 1rem;
+        font-size: 1.2rem;
+        justify-content: space-evenly;
+     }
+     .hub{
+        display: block;
+     }
+     .div h2{
+        font-size: medium;
+     }
+     #div p{
+        font-size: medium;
+     }
+     ul{
+        margin-top: 0.8rem;
+       
+
+     }
+
+     .home h2{
+        font-size: small;
+
+     }
+     .home p{
+     font-size: medium;
+     }
+     .home{
+        width: 80%;
+     }
+     #image1{
+       width: 80%;
+     }
+
+} */
