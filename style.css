@@ -3,11 +3,12 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    color: #333;
+    color: #172B4D;
 }
 
 .bg{
     margin: auto;
+    /* display: flex; */
 }
 .content{
     background-image: url(IMG/IMG-20250507-WA0079-removebg-preview.png);
@@ -69,7 +70,7 @@ h3{
     background-color: rgba(0, 0, 0, 0);
 
     div{
-        background-color:rgba(0, 255, 106, 0.226);
+        background-color:#C5E9DA;
         width: calc(33.33% - 40px); 
         margin: 8px;
         text-align: center;
@@ -106,7 +107,8 @@ button.btn:hover{
 }
 
 .flex-container1 > div {
-   background-color: rgba(0, 255, 106, 0.226);
+   /* background-color: rgba(0, 255, 106, 0.226); */
+   background-color: #C5E9DA;
    height: 280px;
    margin: 8px;
    text-align: center;
