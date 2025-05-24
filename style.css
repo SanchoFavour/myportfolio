@@ -166,15 +166,12 @@ footer{
 .card{
     width: 60%;
     background-color: rgba(128, 128, 128, 0.44);
-    /* margin: auto; */
-    /* display: none ; */
     position:fixed;
-    top: 145%;
+    top: 5%;
     left: 50%;
-    /* right: 0; */
-    /* z-index: 1000; */
     transform: translate(-50%, -50%) scale(0.2);
     visibility: hidden;
+    flex-wrap: wrap;
 } 
 
 .open-Popup{
@@ -191,9 +188,26 @@ footer{
     background-color: white;
     width: 70%;
 }
+.closebtn{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    /* top: 60px; */
+    right: 20px;
+}
+#close{
+    color: red;
+    /* position: fixed; */
+    padding-top: 30px;
+    right: 20px;
+    font-size: 24px;
+    align-content: flex-end;
+    cursor: pointer;
+}
+
 .image{
     margin: auto;
-    padding: 10px;
+    padding: 08px;
 }
 
 .flex{
@@ -225,7 +239,7 @@ h3{
 .buttons{
     justify-content: end;
     width: 40%;
-    padding: 12px;
+    padding: 10px;
     margin: 5px;
     float: right;
   
