@@ -47,7 +47,7 @@
                 <button style="border-radius: 4px;">css</button>
                 <button style="border-radius: 4px;">javascript</button>
                 <button style="border-radius: 4px;">html</button><br><br>
-                <button onclick="window.location.href='Popup.html';" class="btn" style="cursor: pointer; height: 30px; 
+                <button onclick="openPopup()" class="btn" style="cursor: pointer; height: 30px; 
               background-color: #36B37E; color: white; margin-bottom:8px; ">See Project</button>
             </div>
             <div style="width: 340px;">
@@ -57,7 +57,7 @@
                 <button style="border-radius: 4px;">css</button>
                 <button style="border-radius: 4px;">javascript</button>
                 <button style="border-radius: 4px;">html</button><br><br>
-                <button onclick="window.location.href='Popup.html';" class="btn" style="cursor: pointer; height: 30px; 
+                <button onclick="openPopup()" class="btn" style="cursor: pointer; height: 30px; 
               background-color:#36B37E; color: white; margin-bottom:8px; ">See Project</button>
             </div>
             <div style="width: 340px;">
@@ -67,7 +67,7 @@
                 <button style="border-radius: 4px;">css</button>
                 <button style="border-radius: 4px;">javascript</button>
                 <button style="border-radius: 4px;">html</button><br><br>
-                <button onclick="window.location.href='Popup.html';" class="btn" style="cursor: pointer; height: 30px; 
+                <button onclick="openPopup()" class="btn" style="cursor: pointer; height: 30px; 
               background-color:#36B37E; color: white; margin-bottom:8px; ">See Project</button>
             </div>
             <div style="width: 340px;">
@@ -77,7 +77,7 @@
                 <button style="border-radius: 4px;">css</button>
                 <button style="border-radius: 4px;">javascript</button>
                 <button style="border-radius: 4px;">html</button><br><br>
-                <button onclick="window.location.href='Popup.html';" class="btn" style="cursor: pointer; height: 30px; 
+                <button onclick="openPopup()" class="btn" style="cursor: pointer; height: 30px; 
               background-color:#36B37E; color: white; margin-bottom:8px; ">See Project</button>
             </div>
             <div style="width: 340px;">
@@ -87,7 +87,7 @@
                 <button style="border-radius: 4px;">css</button>
                 <button style="border-radius: 4px;">javascript</button>
                 <button style="border-radius: 4px;">html</button><br><br>
-                <button onclick="window.location.href='Popup.html';" class="btn" style="cursor: pointer; height: 30px; 
+                <button onclick="openPopup()" class="btn" style="cursor: pointer; height: 30px; 
               background-color:#36B37E; color: white; margin-bottom:8px; ">See Project</button>
             </div>
             <div style="width: 340px;">
@@ -97,7 +97,7 @@
                 <button style="border-radius: 4px;">css</button>
                 <button style="border-radius: 4px;">javascript</button>
                 <button style="border-radius: 4px;">html</button><br><br>
-                <button onclick="window.location.href='Popup.html';" class="btn" style="cursor: pointer; height: 30px; 
+                <button onclick="openPopup()" class="btn" style="cursor: pointer; height: 30px; 
               background-color:#36B37E; color: white; margin-bottom:8px; ">See Project</button>
             </div>
             </div>
@@ -165,26 +165,59 @@
                 <i class="fa fa-instagram" style="color: white; background-color: rgb(218, 22, 133); padding: 5px;"></i>
             </div>
         </footer> 
+
+         <div id="pop" class="card">
+        <div class="pop">
+            <div class="image">
+                <img src="IMG/Copy-of-Copy-of-Recipe-Email-Image.png" style="width: 95%; margin: auto; padding: 10px;">
+            </div>
+            <div class="flex">
+                <div class="desc">
+                    <h3>Keep track of hundreds of components</h3><br>
+                    <div class="div">
+                        <button style="border-radius: 4px;">Codekit</button>
+                        <button style="border-radius: 4px;">Github</button>
+                        <button style="border-radius: 4px;">javascript</button>
+                        <button style="border-radius: 4px;">Bootstrap</button>
+                        <button style="border-radius: 4px;">Terminal</button>
+                        <button style="border-radius: 4px;">Codepen</button>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button>See live</button>
+                    <button>See source</button>
+                </div>
+            </div><br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto animi, ullam quibusdam 
+                error pariatur reiciendis harum amet doloremque dolores iusto aperiam, laboriosam adipisci 
+                nobis deleniti recusandae quas esse ab illo!
+            </p>
+        </div>
+    </div>
+
+
+
     </div>
     
 
-    <!-- <script>
-        const openPopup = document.getElementById("openPopup");
+    <script>
+        const openPopupButton = document.getElementById("icon");
         const pop= document.getElementById("pop");
 
-        function openPopup(){
-            pop.style.display = "flex";
-        }
         function closePopup(){
-            pop.style.display = "none";
+            pop.classList.remove('open-Popup')
         }
-            openPopup.addEventListener('click', openPopup);
+        function openPopup(){
+            // pop.style.display = "none";
+            pop.classList.add("open-Popup")
+        }
+            openPopupButton.addEventListener('click', openPopup);
 
             window.addEventListener('click', function(event){
                 if (event.target === pop){
                     closePopup();
                 }
             });
-    </script> -->
+    </script>
 </body>
 </html>
