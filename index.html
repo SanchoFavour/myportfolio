@@ -168,8 +168,11 @@
 
          <div id="pop" class="card">
         <div class="pop">
+          <div class="closebtn">
+            <i  id="close" class="fa fa-times icon"></i>
+          </div>
             <div class="image">
-                <img src="IMG/Copy-of-Copy-of-Recipe-Email-Image.png" style="width: 95%; margin: auto; padding: 10px;">
+                <img src="IMG/Copy-of-Copy-of-Recipe-Email-Image.png" style="width: 90%; margin: auto;">
             </div>
             <div class="flex">
                 <div class="desc">
@@ -188,7 +191,7 @@
                     <button>See source</button>
                 </div>
             </div><br>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto animi, ullam quibusdam 
+            <p style="flex-wrap: wrap;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto animi, ullam quibusdam 
                 error pariatur reiciendis harum amet doloremque dolores iusto aperiam, laboriosam adipisci 
                 nobis deleniti recusandae quas esse ab illo!
             </p>
@@ -202,6 +205,7 @@
 
     <script>
         const openPopupButton = document.getElementById("icon");
+        const closePopupButton = document.getElementById("close");
         const pop= document.getElementById("pop");
 
         function closePopup(){
@@ -213,11 +217,14 @@
         }
             openPopupButton.addEventListener('click', openPopup);
 
-            window.addEventListener('click', function(event){
-                if (event.target === pop){
-                    closePopup();
-                }
-            });
+            // window.addEventListener('click', function(event){
+            //     if (event.target === pop){
+            //         closePopup();
+            //     }
+            // });
+            if(closePopupButton){
+                closePopupButton.addEventListener("click", closePopup);
+            }
     </script>
 </body>
 </html>
