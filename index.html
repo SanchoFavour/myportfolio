@@ -212,16 +212,9 @@
             pop.classList.remove('open-Popup')
         }
         function openPopup(){
-            // pop.style.display = "none";
             pop.classList.add("open-Popup")
         }
             openPopupButton.addEventListener('click', openPopup);
-
-            // window.addEventListener('click', function(event){
-            //     if (event.target === pop){
-            //         closePopup();
-            //     }
-            // });
             if(closePopupButton){
                 closePopupButton.addEventListener("click", closePopup);
             }
