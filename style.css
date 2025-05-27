@@ -8,7 +8,6 @@
 
 .bg{
     margin: auto;
-    /* display: flex; */
 }
 .content{
     background-image: url(IMG/IMG-20250507-WA0079-removebg-preview.png);
@@ -180,7 +179,6 @@ footer{
     transform: translate(-50%, -50%) scale(1);
 }
 #openPopup{
-    /* padding: 10px 20px; */
     cursor: pointer;
 }
 .pop{
@@ -192,12 +190,10 @@ footer{
     display: flex;
     justify-content: end;
     margin: 20px;
-    /* top: 60px; */
     right: 20px;
 }
 #close{
     color: red;
-    /* position: fixed; */
     padding-top: 30px;
     right: 20px;
     font-size: 24px;
